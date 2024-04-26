@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="filtering" exec="sensor" name="sensor"/>
+    <node pkg="filtering" exec="kalman1d" name="kalman1d"/>
+</launch>
